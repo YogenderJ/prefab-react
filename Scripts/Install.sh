@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu/codepipeline/reactjs
-pm2 serve dist 3000 --spa
+pm2 serve build 3000 --spa
